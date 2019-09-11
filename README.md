@@ -1,6 +1,8 @@
 # Weird to normal chars converter
 This project detects weird characters in a string and convert them with normal chars. This project was born to convert biographies in social medias that are sometimes written using weird special characters and fonts, 🄻🄸🄺🄴 ⓣⓗⓘⓢ 🅾🅽🅴.
 
+I mostly used https://instafonts.io to find the weird chars.
+
 ### Install
 `npm i weird-to-normal-chars`
 
