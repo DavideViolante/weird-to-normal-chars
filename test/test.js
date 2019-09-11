@@ -1,7 +1,7 @@
 const assert = require('assert')
 const { weirdToNormalChars } = require('../index')
 
-const regexp = new RegExp('This is a weird string', 'i');
+const regexp = new RegExp('This is a weird string', 'i')
 
 describe('Tests for weird to normal chars', () => {
   it('should return a empty string', () => {
@@ -144,5 +144,4 @@ describe('Tests for weird to normal chars', () => {
     const str = 'ᖶᕼᓰS ᓰS ᗩ ᘺᘿᓰᖇᕲ Sᖶᖇᓰᘉᘜ'
     assert.ok(regexp.test(weirdToNormalChars(str)))
   })
-  
 })
