@@ -1,4 +1,4 @@
-# Weird to normal chars converter
+# Weird to normal chars converter [![Donate](https://img.shields.io/badge/paypal-donate-179BD7.svg)](https://www.paypal.me/dviolante) [![MIT license](http://img.shields.io/badge/license-MIT-lightgrey.svg)](http://opensource.org/licenses/MIT)
 This project detects weird characters in a string and convert them with normal chars. This project was born to convert biographies in social medias that are sometimes written using weird special characters and fonts, 🄻🄸🄺🄴 ⓣⓗⓘⓢ 🅾🅽🅴.
 
 I mostly used https://instafonts.io to find the weird chars.
@@ -25,3 +25,6 @@ function main() {
 
 ### Run lint
 - `npm run lint`
+
+### I need you
+To support as many chars as possible I need your help. If you have a list of chars that are not covered already, please open an Issue or open a Pull Request.
