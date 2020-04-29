@@ -1,6 +1,6 @@
 {
   "name": "weird-to-normal-chars",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Convert weird chars to normal",
   "main": "index.js",
   "scripts": {
@@ -31,12 +31,12 @@
   },
   "homepage": "https://github.com/DavideViolante/weird-to-normal-chars#readme",
   "devDependencies": {
-    "eslint": "^6.3.0",
-    "eslint-config-standard": "^14.1.0",
-    "eslint-plugin-import": "^2.17.2",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-node": "^10.0.0",
     "eslint-plugin-promise": "^4.1.1",
     "eslint-plugin-standard": "^4.0.0",
-    "mocha": "^6.1.4"
+    "mocha": "^7.1.2"
   }
 }
