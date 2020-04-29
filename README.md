@@ -1,5 +1,5 @@
-# Weird to normal chars converter [![Donate](https://img.shields.io/badge/paypal-donate-179BD7.svg)](https://www.paypal.me/dviolante) [![MIT license](http://img.shields.io/badge/license-MIT-lightgrey.svg)](http://opensource.org/licenses/MIT)
-This project detects weird characters in a string and convert them with normal chars. This project was born to convert biographies in social medias that are sometimes written using weird special characters and fonts, 🄻🄸🄺🄴 ⓣⓗⓘⓢ 🅾🅽🅴.
+# Weird to normal chars converter [![Donate](https://img.shields.io/badge/paypal-donate-179BD7.svg)](https://www.paypal.me/dviolante)
+Library to detect weird characters in a string and convert them to normal chars. This project was born to convert biographies in social medias that are sometimes written using weird special characters and fonts, 🄻🄸🄺🄴 ⓣⓗⓘⓢ 🅾🅽🅴.
 
 I mostly used https://instafonts.io to find the weird chars.
 
@@ -10,14 +10,12 @@ I mostly used https://instafonts.io to find the weird chars.
 ```js
 const { weirdToNormalChars } = require('weird-to-normal-chars')
 
-function main() {
-  const result1 = weirdToNormalChars('𝔗𝔥𝔦𝔰 𝔦𝔰 𝔞 𝔴𝔢𝔦𝔯𝔡 𝔰𝔱𝔯𝔦𝔫𝔤')
-  const result2 = weirdToNormalChars('𝒯𝒽𝒾𝓈 𝒾𝓈 𝒶 𝓌𝑒𝒾𝓇𝒹 𝓈𝓉𝓇𝒾𝓃𝑔')
-  const result3 = weirdToNormalChars('𝕋𝕙𝕚𝕤 𝕚𝕤 𝕒 𝕨𝕖𝕚𝕣𝕕 𝕤𝕥𝕣𝕚𝕟𝕘')
-  console.log(result1) // This is a weird string
-  console.log(result2) // This is a weird string
-  console.log(result3) // This is a weird string
-}
+const result1 = weirdToNormalChars('𝔗𝔥𝔦𝔰 𝔦𝔰 𝔞 𝔴𝔢𝔦𝔯𝔡 𝔰𝔱𝔯𝔦𝔫𝔤')
+const result2 = weirdToNormalChars('𝒯𝒽𝒾𝓈 𝒾𝓈 𝒶 𝓌𝑒𝒾𝓇𝒹 𝓈𝓉𝓇𝒾𝓃𝑔')
+const result3 = weirdToNormalChars('𝕋𝕙𝕚𝕤 𝕚𝕤 𝕒 𝕨𝕖𝕚𝕣𝕕 𝕤𝕥𝕣𝕚𝕟𝕘')
+console.log(result1) // This is a weird string
+console.log(result2) // This is a weird string
+console.log(result3) // This is a weird string
 ```
 
 ### Run tests
@@ -28,3 +26,6 @@ function main() {
 
 ### I need you
 To support as many chars as possible I need your help. If you have a list of chars that are not covered already, please open an Issue or open a Pull Request.
+
+### Author
+- [Davide Violante](https://github.com/DavideViolante/)
