@@ -1,4 +1,4 @@
-# Weird to normal chars converter [![Donate](https://img.shields.io/badge/paypal-donate-179BD7.svg)](https://www.paypal.me/dviolante)
+# Weird to normal chars converter [![](https://github.com/davideviolante/weird-to-normal-chars/workflows/Node.js%20CI/badge.svg)](https://github.com/DavideViolante/weird-to-normal-chars/actions?query=workflow%3A"Node.js+CI") [![Donate](https://img.shields.io/badge/paypal-donate-179BD7.svg)](https://www.paypal.me/dviolante)
 Library to detect weird characters in a string and convert them to normal chars. This project was born to convert biographies in social medias that are sometimes written using weird special characters and fonts, 🄻🄸🄺🄴 ⓣⓗⓘⓢ 🅾🅽🅴.
 
 I mostly used https://instafonts.io to find the weird chars.
