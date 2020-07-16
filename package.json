@@ -1,6 +1,6 @@
 {
   "name": "weird-to-normal-chars",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "Convert weird chars to normal",
   "main": "index.js",
   "scripts": {
