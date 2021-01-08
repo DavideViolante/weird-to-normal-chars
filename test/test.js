@@ -116,8 +116,8 @@ describe('Tests for weird to normal chars', () => {
     const str = '†hï§ ï§ å wêïrÐ §†rïñg'
     assert.ok(regexp.test(weirdToNormalChars(str)))
   })
-  it('should return a string with normal chars #37', () => {
-    const str = '₮Ⱨł₴ ł₴ ₳ ₩ɆłⱤĐ ₴₮Ɽł₦₲'
+  it('should return a string with normal chars #27', () => {
+    const str = '₮Ⱨĭ₴ ĭ₴ ₳ ₩ɆĭⱤĐ ₴₮Ɽĭ₦₲'
     assert.ok(regexp.test(weirdToNormalChars(str)))
   })
   it('should return a string with normal chars #28', () => {
@@ -142,6 +142,10 @@ describe('Tests for weird to normal chars', () => {
   })
   it('should return a string with normal chars #33', () => {
     const str = 'ᖶᕼᓰS ᓰS ᗩ ᘺᘿᓰᖇᕲ Sᖶᖇᓰᘉᘜ'
+    assert.ok(regexp.test(weirdToNormalChars(str)))
+  })
+  it('should return a string with normal chars #34', () => {
+    const str = 'Ťĥİš ıŠ ă ŵĕĩŘđ ŚŧřĬŊģ'
     assert.ok(regexp.test(weirdToNormalChars(str)))
   })
 })
