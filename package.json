@@ -3,6 +3,7 @@
   "version": "1.4.0",
   "description": "Convert weird chars to normal",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "dev": "node index.js",
     "lint": "eslint ./",
