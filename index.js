@@ -1,4 +1,4 @@
-const weirdToNormalMap = require('./map')
+const weirdToNormalMap = require('./map');
 
 /**
  * Weird to normal chars converter
@@ -13,7 +13,7 @@ console.log(result1) // This is a weird string
 console.log(result2) // This is a weird string
 console.log(result3) // This is a weird string
  */
-function weirdToNormalChars (str) {
+function weirdToNormalChars(str) {
   if (!str) {
     return '';
   }
