@@ -39,3 +39,6 @@ To support as many chars as possible I need your help. If you have a list of cha
 
 ### Author
 - [Davide Violante](https://github.com/DavideViolante/ "Davide Violante")
+
+### Back to top
+[![](backToTop.png?raw=true "Back to top")](#weird-to-normal-chars-converter)
