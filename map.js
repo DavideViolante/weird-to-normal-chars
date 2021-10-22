@@ -1526,4 +1526,4 @@ const weirdToNormalMap = {
   '　': ' ',
 };
 
-module.exports = weirdToNormalMap
+module.exports = weirdToNormalMap;
