@@ -36,5 +36,5 @@ npm run lint
 To support as many chars as possible I need your help. If you have a list of chars that are not covered already, please open an Issue or open a Pull Request.
 
 ### Author
-- [Davide Violante](https://github.com/DavideViolante/ "Davide Violante")
+- [Davide Violante](https://github.com/DavideViolante)
 
