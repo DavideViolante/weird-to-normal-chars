@@ -1,17 +1,17 @@
-const weirdToNormalMap = require('./map')
+const weirdToNormalMap = require('./map');
 
 /**
  * Weird to normal chars converter
  * @param {String} str String to convert
  * @returns {String}
  */
-function weirdToNormalChars (str) {
+function weirdToNormalChars(str) {
   if (!str) {
-    return ''
+    return '';
   }
   return [...str]
     .map(char => weirdToNormalMap[char] || char)
-    .join('')
+    .join('');
 }
 
-exports.weirdToNormalChars = weirdToNormalChars
+exports.weirdToNormalChars = weirdToNormalChars;
