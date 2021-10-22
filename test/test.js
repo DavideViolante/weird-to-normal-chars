@@ -156,4 +156,16 @@ describe('Tests for weird to normal chars', () => {
     const str = '🅣🅗🅘🅢 🅘🅢 🅐 🅦🅔🅘🅡🅓 🅢🅣🅡🅘🅝🅖';
     assert.ok(regexp.test(weirdToNormalChars(str)));
   });
+  it('should return a string with normal chars #37', () => {
+    const str = '🆎🆑🆘';
+    assert.ok(new RegExp('ABCLSOS', 'i').test(weirdToNormalChars(str)));
+  });
+  it('should return a string with normal chars #38', () => {
+    const str = 'ℹ️';
+    assert.ok(new RegExp('i', 'i').test(weirdToNormalChars(str)));
+  });
+  it('should return a string with normal chars #39', () => {
+    const str = '🔤🆖🆗🆙🆒🆕🆓🚾#️⃣*️⃣';
+    assert.ok(new RegExp('abcNGOKUP!COOLNEWFREEWC#*', 'i').test(weirdToNormalChars(str)));
+  });
 });
